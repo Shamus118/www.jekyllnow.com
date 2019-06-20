@@ -1,7 +1,7 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/egg.js/1.0/egg.min.js">
   <img id="egggif" src="http://media.giphy.com/media/4hnQDVKVARZ6w/giphy.gif" />
     var egg = new Egg();
-    egg.addCode("up,up,down,down,left,right,left,right,b,a", function() {
+    egg.addCode("up,up,down,down,left,right,left,right,b,b,a", function() {
       jQuery('#egggif').fadeIn(500, function() {
         window.setTimeout(function() { jQuery('#egggif').hide(); }, 5000);
       });
