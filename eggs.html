@@ -1,7 +1,7 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/egg.js/1.0/egg.min.js"></script>
 var egg = new Egg();
 egg
-  .addCode("up,up,down,down,left,right,left,right,b,a", function() {
+  .addCode("up,down,up,down,left,left,right", function() {
     jQuery('#egggif').fadeIn(500, function() {
       window.setTimeout(function() { jQuery('#egggif').hide(); }, 5000);
     });
